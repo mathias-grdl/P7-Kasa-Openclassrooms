@@ -1,0 +1,15 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (min-width:768px) {
+    .cards {
+        background-color: var(--secondary-color);
+        margin-top: 40px;
+        padding-bottom: 50px;
+        border-radius: 25px;
+    }
+}

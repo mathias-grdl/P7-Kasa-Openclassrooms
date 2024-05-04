@@ -1,0 +1,26 @@
+footer {
+    background-color: var(--color-black);
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer img {
+    padding: 60px 0px 20px;
+    width: 122px;
+    height: 40px;
+}
+
+footer p {
+    color: var(--color-white);
+    text-align: center;
+    font-size: 12px;
+    padding-bottom: 60px;
+    margin-bottom: 0px;
+}
+
+
+@media screen and (min-width:768px) {
+    footer p {
+        font-size: 24px;
+    }
+}

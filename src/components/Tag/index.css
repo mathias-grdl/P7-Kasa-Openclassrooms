@@ -1,0 +1,17 @@
+.tag {
+  margin-bottom: 20px;
+}
+
+.tag span {
+  background-color: var(--primary-color);
+  color: var(--color-white);
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+@media screen and (min-width:768px) {
+  .tag span {
+    padding: 5px 40px;
+  }
+}

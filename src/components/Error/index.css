@@ -1,0 +1,39 @@
+.error_content {
+    text-align: center;
+}
+
+.error_content h1 {
+    font-weight: 700;
+    color: var(--primary-color);
+    font-size: clamp(6rem, 1.7746rem + 18.0282vw, 18rem);
+    margin: 164px 0 -6px;
+    ;
+}
+
+.error_content p {
+    color: var(--primary-color);
+    margin-bottom: 139px;
+    font-size: 18px;
+}
+
+.error_content a {
+    color: var(--primary-color);
+    font-size: 14px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+
+@media screen and (min-width:768px) {
+    .error_content h1 {
+        margin: 133px 0 -9px;
+    }
+
+    .error_content p {
+        font-size: 36px;
+    }
+
+    .error_conten a {
+        font-size: 18px;
+    }
+}

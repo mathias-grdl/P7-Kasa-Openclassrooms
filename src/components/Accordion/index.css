@@ -1,0 +1,86 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion .item {
+    background: var(--color-white);
+    margin-top: 20px;
+}
+
+.accordion p, .accordion span {
+    margin: 0;
+    line-height: 17px;
+    font-size: 12px;
+}
+
+.accordion .title {
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    padding: 0 20px;
+}
+
+.accordion .title h2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 142.6%;
+    color: var(--color-white);
+}
+
+.accordion .title i {
+    font-size: 16px;
+}
+
+.content {
+    color: var(--primary-color);
+    max-height: 0;
+    overflow: hidden;
+    background-color: var(--secondary-color);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.accordion .content.show {
+    max-height: 100%;
+    padding: 20px 10px 50px;
+    margin: 0;
+}
+
+.accordion li.equipement {
+    list-style-type: none;
+    font-size: 12px;
+}
+
+
+@media screen and (min-width:768px) {
+
+    .accordion p, .accordion span {
+        margin: 0;
+        line-height: 25px;
+        font-size: 18px;
+    }
+
+    .accordion .title h2 {
+        font-size: 24px;
+    }
+
+    .accordion .title i {
+        font-size: 24px;
+    }
+
+    .accordion .content {
+        font-size: 24px;
+    }
+
+    .accordion .content.show {
+        padding: 30px 20px 20px;
+    }
+
+    .accordion li.equipement {
+        font-size: 18px;
+    }
+}

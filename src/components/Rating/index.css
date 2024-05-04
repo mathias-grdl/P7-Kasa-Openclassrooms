@@ -1,0 +1,27 @@
+.stars {
+    display: flex;
+}
+
+.fa-star {
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.active .fa-star {
+    background: var(--primary-color);;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.inactive .fa-star {
+    background: #b4b4b4;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (min-width:768px) {
+
+    .fa-star {
+        font-size: 24px;
+    }
+}

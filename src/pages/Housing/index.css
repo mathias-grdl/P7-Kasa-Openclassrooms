@@ -1,0 +1,57 @@
+.housingTitle h1 {
+    font-size: 18px;
+    color: var(--primary-color);
+}
+
+.housingTitle p {
+    font-size: 14px;
+    color: var(--primary-color);
+}
+
+.housingProfil {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.housing .accordion .title h2 {
+    font-size: 13px;
+}
+
+@media screen and (min-width:768px) {
+
+    .housingInfo {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+
+    .housingTitle h1 {
+        font-size: 36px;
+    }
+
+    .housingTitle p {
+        font-size: 18px;
+    }
+
+    .housingProfil {
+        flex-direction: column;
+        align-items: flex-end;
+        margin: 20px 0 30px;
+    }
+
+    .housingAccordionContainer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .housingAccordion {
+        width: 46%;
+    }
+
+    .housing .accordion .title h2 {
+        font-size: 18px;
+    }
+
+}
