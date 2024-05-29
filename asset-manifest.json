@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/p7-Kasa-Openclassrooms/static/css/main.089082fd.css",
+    "main.js": "/p7-Kasa-Openclassrooms/static/js/main.31db72f2.js",
+    "static/media/bannerAbout.svg": "/p7-Kasa-Openclassrooms/static/media/bannerAbout.ff20d5c9f4cf308bb9cd6a63ab043267.svg",
+    "static/media/bannerHome.svg": "/p7-Kasa-Openclassrooms/static/media/bannerHome.a9455cc973874521360446d352c9218b.svg",
+    "static/media/logo.svg": "/p7-Kasa-Openclassrooms/static/media/logo.a3c0648d784a63505d774a39033fe2aa.svg",
+    "static/media/logoWhite.svg": "/p7-Kasa-Openclassrooms/static/media/logoWhite.2553fb29683f2c12e44904bd8503bf1b.svg",
+    "index.html": "/p7-Kasa-Openclassrooms/index.html",
+    "main.089082fd.css.map": "/p7-Kasa-Openclassrooms/static/css/main.089082fd.css.map",
+    "main.31db72f2.js.map": "/p7-Kasa-Openclassrooms/static/js/main.31db72f2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.089082fd.css",
+    "static/js/main.31db72f2.js"
+  ]
+}
